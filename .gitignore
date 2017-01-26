@@ -11,3 +11,6 @@
 /log/*
 !/log/.keep
 /tmp
+
+# Ignore local copy of gem, not available on rubygems
+vendor/govuk_frontend_alpha
