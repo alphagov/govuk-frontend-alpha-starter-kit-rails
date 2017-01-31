@@ -4,6 +4,8 @@ gem 'rails', '4.2.6'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 
+gem 'govuk_frontend_alpha', path: 'vendor/govuk_frontend_alpha'
+
 group :development, :test do
   gem 'byebug'
   gem 'pry'
