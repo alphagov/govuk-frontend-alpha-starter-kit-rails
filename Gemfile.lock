@@ -1,3 +1,9 @@
+PATH
+  remote: vendor/govuk_frontend_alpha
+  specs:
+    govuk_frontend_alpha (0.0.1)
+      rails (>= 3.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -130,6 +136,7 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   byebug
+  govuk_frontend_alpha!
   pry
   rails (= 4.2.6)
   sass-rails (~> 5.0)
@@ -137,4 +144,4 @@ DEPENDENCIES
   uglifier (>= 1.3.0)
 
 BUNDLED WITH
-   1.10.6
+   1.12.0
