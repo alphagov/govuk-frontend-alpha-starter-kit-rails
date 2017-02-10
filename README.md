@@ -20,4 +20,4 @@ It's simple Ruby on Rails app, following standard Rails conventions, with a coup
   $ bundle exec rails s
   ```
 
-You'll be able to see the app running here: [localhost:3000](http://localhost:3000/)
+You'll be able to see the app running here: [localhost:3003](http://localhost:3003/)
