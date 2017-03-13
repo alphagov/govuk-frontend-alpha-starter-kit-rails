@@ -11,11 +11,3 @@ mkdir -p $TARGET_DIR
 curl -L -s $PACKAGE_URL | tar -xz --directory $TARGET_DIR
 
 echo "Done"
-echo
-
-echo "Add this line to your gemfile:"
-echo
-echo "    gem 'govuk_frontend_alpha', path: 'vendor/govuk_frontend_alpha'"
-echo
-echo "and run \`bundle\` to install."
-echo
