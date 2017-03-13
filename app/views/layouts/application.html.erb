@@ -1,5 +1,9 @@
 <% content_for :page_title, "My page title" %>
 
+<% content_for :stylesheet do %>
+  <link href="<%= asset_path 'application.css' %>" media="screen" rel="stylesheet" />
+<% end %>
+
 <% content_for :head do %>
   <%= csrf_meta_tags %>
 <% end %>
