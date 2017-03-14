@@ -14,7 +14,13 @@ It's simple Ruby on Rails app, following standard Rails conventions, with a coup
   $ bundle
   ```
 
-3. Finally, run the web server:
+3. While in Alpha, please run this script to setup GOV.UK Frontend
+
+  ```sh
+  $ ./bin/install-govuk-frontend
+  ```
+
+4. Finally, run the web server:
 
   ```sh
   $ bundle exec rails s

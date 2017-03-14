@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Starter Rails application</title>
-  <%= stylesheet_link_tag    'application', media: 'all' %>
-  <%= javascript_include_tag 'application' %>
+<% content_for :page_title, "My page title" %>
+
+<% content_for :stylesheet do %>
+  <link href="<%= asset_path 'application.css' %>" media="screen" rel="stylesheet" />
+<% end %>
+
+<% content_for :head do %>
   <%= csrf_meta_tags %>
-</head>
-<body>
+<% end %>
 
-<%= yield %>
-
-</body>
-</html>
+<%= render file: 'layouts/govuk_template' %>
